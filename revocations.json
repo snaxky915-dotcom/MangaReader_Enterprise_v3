@@ -1,21 +1,7 @@
 {
-  "updatedAt": 1794697646,
-  "revokedMachineIds": [
-    "MG-9999-8888-7777"
-  ],
-  "revokedNonces": [
-    "add2d074751f"
-  ],
-  "revokedTokens": [
-    "MG-ACT-eyJtaWQiOiJNRy05OTk5LTg4ODgtNzc3NyIsImZyaWVuZCI6IkFtaWdvIFRlc3QiLCJpc3N1ZWRBdCI6MTc5NDY5NzY0NiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImFkZDJkMDc0NzUxZiJ9.GFW5_hMo208JoDmEa6cEXWS0r9gKb8z7vg_4oz5rH-A"
-  ],
-  "entries": [
-    {
-      "id": "add2d074751f",
-      "machineId": "MG-9999-8888-7777",
-      "friend": "Amigo Test",
-      "revokedAt": 1794697646,
-      "reason": "Prueba de test"
-    }
-  ]
+  "updatedAt": 1794697648,
+  "revokedMachineIds": [],
+  "revokedNonces": [],
+  "revokedTokens": [],
+  "entries": []
 }
