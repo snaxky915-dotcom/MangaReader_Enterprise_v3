@@ -1,21 +1,7 @@
 {
-  "updatedAt": 1794875779,
-  "revokedMachineIds": [
-    "MG-1234-5678-90AB"
-  ],
-  "revokedNonces": [
-    "507c2665c7a1"
-  ],
-  "revokedTokens": [
-    "MG-ACT-eyJtaWQiOiJNRy0xMjM0LTU2NzgtOTBBQiIsImZyaWVuZCI6IkVsaWFuIFRlc3QiLCJpc3N1ZWRBdCI6MTc5NDg3NTc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjUwN2MyNjY1YzdhMSJ9.toHacI6Eo58DomaS4GCHcrbf3X7YIAmgybtGy2APcuc"
-  ],
-  "entries": [
-    {
-      "id": "507c2665c7a1",
-      "machineId": "MG-1234-5678-90AB",
-      "friend": "Elian Test",
-      "revokedAt": 1794875779,
-      "reason": "Prueba revocación"
-    }
-  ]
+  "updatedAt": 1794875783,
+  "revokedMachineIds": [],
+  "revokedNonces": [],
+  "revokedTokens": [],
+  "entries": []
 }
