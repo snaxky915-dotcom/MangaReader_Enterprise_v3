@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795297964,
+  "updatedAt": 1795297977,
   "revokedMachineIds": [
     "MG-6469-3DF2-6E3A",
     "MG-1DE7-6ED0-8128",
@@ -10,8 +10,7 @@
     "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A",
-    "MG-46A5-D505-3D00",
-    "MG-7238-A15E-D9B1"
+    "MG-46A5-D505-3D00"
   ],
   "revokedNonces": [
     "030b5a795879",
@@ -25,8 +24,7 @@
     "b93464ae3ab4",
     "3a6303a1a362",
     "558dc42c93c2",
-    "31b7adcae040",
-    "662546a1471d"
+    "31b7adcae040"
   ],
   "revokedTokens": [
     "MG-ACT-eyJtaWQiOiJNRy02NDY5LTNERjItNkUzQSIsImZyaWVuZCI6ImVsIGFtaWdvIGRlIGVuZHkiLCJpc3N1ZWRBdCI6MTc5NTEwOTMxMywiZXhwaXJlc0F0IjoxNzk3NzAxMzEzLCJ0aWVyIjoiMzBEIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjAzMGI1YTc5NTg3OSJ9.TApIGVaucqSfyMTtc0mzssUn3VXl0vCjqwTfu6tQZZM",
@@ -38,8 +36,7 @@
     "MG-ACT-eyJtaWQiOiJNRy0wNDhFLTUzNEMtMTZDRCIsImZyaWVuZCI6InBjIGRlIGxhIG9maWNpbmEiLCJpc3N1ZWRBdCI6MTc5NDQyNDAxNCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjFjOWEzZGYyYjNhMiJ9.ciTEzG6jUICHNgzqPN2PaB2vq0ehzNBFpwRkc7RzCzY",
     "MG-ACT-eyJtaWQiOiJNRy02OUY3LUE4RUItRDlFOCIsImZyaWVuZCI6Im1lciIsImlzc3VlZEF0IjoxNzk0MzU0MDgzLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjkzNDY0YWUzYWI0In0.lHsgx6w_QYBPUnJ9NKcjfan3qFxqG8PWO2E6Ui5w08E",
     "MG-ACT-eyJtaWQiOiJNRy1FMzNGLTBENjEtQkM4QSIsImZyaWVuZCI6Im1pIHB1Y2h1bmdpdGEiLCJpc3N1ZWRBdCI6MTc5NDI4Njc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjNhNjMwM2ExYTM2MiJ9.KCFnI_20c4WeagH5d_9H_8vXrM3YLQY6GxVznVGnqwM",
-    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o",
-    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg"
+    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o"
   ],
   "deletedFromListMachineIds": [
     "MG-6469-3DF2-6E3A",
@@ -54,13 +51,6 @@
     "MG-F767-4CF6-4E96"
   ],
   "entries": [
-    {
-      "id": "662546a1471d",
-      "machineId": "MG-7238-A15E-D9B1",
-      "friend": "macafia20 (joel)",
-      "revokedAt": 1795297964,
-      "reason": "Revocado por Propietario"
-    },
     {
       "id": "558dc42c93c2",
       "machineId": "MG-46A5-D505-3D00",
