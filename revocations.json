@@ -1,7 +1,6 @@
 {
-  "updatedAt": 1795298344,
+  "updatedAt": 1795300805,
   "revokedMachineIds": [
-    "MG-6469-3DF2-6E3A",
     "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
@@ -26,7 +25,6 @@
     "31b7adcae040"
   ],
   "revokedTokens": [
-    "MG-ACT-eyJtaWQiOiJNRy02NDY5LTNERjItNkUzQSIsImZyaWVuZCI6ImVsIGFtaWdvIGRlIGVuZHkiLCJpc3N1ZWRBdCI6MTc5NTEwOTMxMywiZXhwaXJlc0F0IjoxNzk3NzAxMzEzLCJ0aWVyIjoiMzBEIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjAzMGI1YTc5NTg3OSJ9.TApIGVaucqSfyMTtc0mzssUn3VXl0vCjqwTfu6tQZZM",
     "MG-ACT-eyJtaWQiOiJNRy0xREU3LTZFRDAtODEyOCIsImZyaWVuZCI6ImVuZHkgbGEgY2h1bHVsYSIsImlzc3VlZEF0IjoxNzk0OTM4NzcwLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiMGQyMzVhNzUxMjRiIn0.1UDdAjmVZDtmeI_zB1qDE3eqkAfhPpvg_UyjqSDUAuU",
     "MG-ACT-eyJtaWQiOiJNRy00NzAyLTZBMTctM0Q5NSIsImZyaWVuZCI6Im1hcmdvdC1rdW4iLCJpc3N1ZWRBdCI6MTc5NDYyMzg2NSwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImU5OGVhZjQ4YzVlYSJ9.9cPu6dM0jzMT7uXCRJPud5CsGr61Fek6V9sPI4kPbxU",
     "MG-ACT-eyJtaWQiOiJNRy1EMTYyLTZBQTEtNjE0OCIsImZyaWVuZCI6IkVsIGxldGUiLCJpc3N1ZWRBdCI6MTc5NDYxMjk2MiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY3ODM1ZWVkM2Q3MCJ9.4BF0qa3ocTIalqBPLnfZVHsf4qAQvzdZWuC8tnWZSS0",
@@ -37,7 +35,6 @@
     "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o"
   ],
   "deletedFromListMachineIds": [
-    "MG-6469-3DF2-6E3A",
     "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
@@ -102,13 +99,6 @@
       "machineId": "MG-1DE7-6ED0-8128",
       "friend": "endy la chulula",
       "revokedAt": 1795296240,
-      "reason": "Revocado por Propietario"
-    },
-    {
-      "id": "030b5a795879",
-      "machineId": "MG-6469-3DF2-6E3A",
-      "friend": "el amigo de endy",
-      "revokedAt": 1795296236,
       "reason": "Revocado por Propietario"
     }
   ]
