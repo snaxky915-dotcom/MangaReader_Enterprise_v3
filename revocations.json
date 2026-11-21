@@ -1,7 +1,132 @@
 {
-  "updatedAt": 1795281051,
-  "revokedMachineIds": [],
-  "revokedNonces": [],
-  "revokedTokens": [],
-  "entries": []
+  "updatedAt": 1795297437,
+  "revokedMachineIds": [
+    "MG-6469-3DF2-6E3A",
+    "MG-1DE7-6ED0-8128",
+    "MG-4702-6A17-3D95",
+    "MG-D162-6AA1-6148",
+    "MG-6990-C203-AC7D",
+    "MG-FD92-3667-35E1",
+    "MG-F767-4CF6-4E96",
+    "MG-048E-534C-16CD",
+    "MG-69F7-A8EB-D9E8",
+    "MG-E33F-0D61-BC8A",
+    "MG-46A5-D505-3D00",
+    "MG-7238-A15E-D9B1"
+  ],
+  "revokedNonces": [
+    "030b5a795879",
+    "0d235a75124b",
+    "e98eaf48c5ea",
+    "67835eed3d70",
+    "74e650fa342a",
+    "b0f013eda525",
+    "6979d37670bf",
+    "1c9a3df2b3a2",
+    "b93464ae3ab4",
+    "3a6303a1a362",
+    "558dc42c93c2",
+    "31b7adcae040"
+  ],
+  "revokedTokens": [
+    "MG-ACT-eyJtaWQiOiJNRy02NDY5LTNERjItNkUzQSIsImZyaWVuZCI6ImVsIGFtaWdvIGRlIGVuZHkiLCJpc3N1ZWRBdCI6MTc5NTEwOTMxMywiZXhwaXJlc0F0IjoxNzk3NzAxMzEzLCJ0aWVyIjoiMzBEIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjAzMGI1YTc5NTg3OSJ9.TApIGVaucqSfyMTtc0mzssUn3VXl0vCjqwTfu6tQZZM",
+    "MG-ACT-eyJtaWQiOiJNRy0xREU3LTZFRDAtODEyOCIsImZyaWVuZCI6ImVuZHkgbGEgY2h1bHVsYSIsImlzc3VlZEF0IjoxNzk0OTM4NzcwLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiMGQyMzVhNzUxMjRiIn0.1UDdAjmVZDtmeI_zB1qDE3eqkAfhPpvg_UyjqSDUAuU",
+    "MG-ACT-eyJtaWQiOiJNRy00NzAyLTZBMTctM0Q5NSIsImZyaWVuZCI6Im1hcmdvdC1rdW4iLCJpc3N1ZWRBdCI6MTc5NDYyMzg2NSwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImU5OGVhZjQ4YzVlYSJ9.9cPu6dM0jzMT7uXCRJPud5CsGr61Fek6V9sPI4kPbxU",
+    "MG-ACT-eyJtaWQiOiJNRy1EMTYyLTZBQTEtNjE0OCIsImZyaWVuZCI6IkVsIGxldGUiLCJpc3N1ZWRBdCI6MTc5NDYxMjk2MiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY3ODM1ZWVkM2Q3MCJ9.4BF0qa3ocTIalqBPLnfZVHsf4qAQvzdZWuC8tnWZSS0",
+    "MG-ACT-eyJtaWQiOiJNRy02OTkwLUMyMDMtQUM3RCIsImZyaWVuZCI6IkplcmVtaWFzIiwiaXNzdWVkQXQiOjE3OTQ2MDU5NzUsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI3NGU2NTBmYTM0MmEifQ.6kYRKtPNDyG_bO-S8wxAX4N39fW32ERPCuosYBCcL5Q",
+    "MG-ACT-eyJtaWQiOiJNRy1GRDkyLTM2NjctMzVFMSIsImZyaWVuZCI6Imp1ZGl0aCBvZmZpY2luYSIsImlzc3VlZEF0IjoxNzk0NDI2Mzk4LCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjBmMDEzZWRhNTI1In0.mZcNohvYrquAS7rgI5CXZzS-YiF18yT_Cjqn4gMGNGE",
+    "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkFtaWdvIiwiaXNzdWVkQXQiOjE3OTQyNjE3MjAsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI2OTc5ZDM3NjcwYmYifQ.0IssSM28KDkf0AZd8x4e0_f-nQtBZ2t9FS-X_m2n_Ds",
+    "MG-ACT-eyJtaWQiOiJNRy0wNDhFLTUzNEMtMTZDRCIsImZyaWVuZCI6InBjIGRlIGxhIG9maWNpbmEiLCJpc3N1ZWRBdCI6MTc5NDQyNDAxNCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjFjOWEzZGYyYjNhMiJ9.ciTEzG6jUICHNgzqPN2PaB2vq0ehzNBFpwRkc7RzCzY",
+    "MG-ACT-eyJtaWQiOiJNRy02OUY3LUE4RUItRDlFOCIsImZyaWVuZCI6Im1lciIsImlzc3VlZEF0IjoxNzk0MzU0MDgzLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjkzNDY0YWUzYWI0In0.lHsgx6w_QYBPUnJ9NKcjfan3qFxqG8PWO2E6Ui5w08E",
+    "MG-ACT-eyJtaWQiOiJNRy1FMzNGLTBENjEtQkM4QSIsImZyaWVuZCI6Im1pIHB1Y2h1bmdpdGEiLCJpc3N1ZWRBdCI6MTc5NDI4Njc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjNhNjMwM2ExYTM2MiJ9.KCFnI_20c4WeagH5d_9H_8vXrM3YLQY6GxVznVGnqwM",
+    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o",
+    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6ImpvZWwiLCJpc3N1ZWRBdCI6MTc5NDI1NTgzNiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjMxYjdhZGNhZTA0MCJ9.AJFQKr8_78fFhsJY6-0gGON-CycvnthgD2JrDaHHM3A"
+  ],
+  "deletedFromListMachineIds": [],
+  "entries": [
+    {
+      "id": "31b7adcae040",
+      "machineId": "MG-7238-A15E-D9B1",
+      "friend": "joel",
+      "revokedAt": 1795297437,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "558dc42c93c2",
+      "machineId": "MG-46A5-D505-3D00",
+      "friend": "elian",
+      "revokedAt": 1795297437,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "3a6303a1a362",
+      "machineId": "MG-E33F-0D61-BC8A",
+      "friend": "mi puchungita",
+      "revokedAt": 1795297437,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "b93464ae3ab4",
+      "machineId": "MG-69F7-A8EB-D9E8",
+      "friend": "mer",
+      "revokedAt": 1795297437,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "1c9a3df2b3a2",
+      "machineId": "MG-048E-534C-16CD",
+      "friend": "pc de la oficina",
+      "revokedAt": 1795297437,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "6979d37670bf",
+      "machineId": "MG-F767-4CF6-4E96",
+      "friend": "Amigo",
+      "revokedAt": 1795296271,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "b0f013eda525",
+      "machineId": "MG-FD92-3667-35E1",
+      "friend": "judith officina",
+      "revokedAt": 1795296257,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "74e650fa342a",
+      "machineId": "MG-6990-C203-AC7D",
+      "friend": "Jeremias",
+      "revokedAt": 1795296253,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "67835eed3d70",
+      "machineId": "MG-D162-6AA1-6148",
+      "friend": "El lete",
+      "revokedAt": 1795296248,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "e98eaf48c5ea",
+      "machineId": "MG-4702-6A17-3D95",
+      "friend": "margot-kun",
+      "revokedAt": 1795296244,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "0d235a75124b",
+      "machineId": "MG-1DE7-6ED0-8128",
+      "friend": "endy la chulula",
+      "revokedAt": 1795296240,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "030b5a795879",
+      "machineId": "MG-6469-3DF2-6E3A",
+      "friend": "el amigo de endy",
+      "revokedAt": 1795296236,
+      "reason": "Revocado por Propietario"
+    }
+  ]
 }
