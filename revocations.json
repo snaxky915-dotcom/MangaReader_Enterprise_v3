@@ -1,21 +1,21 @@
 {
-  "updatedAt": 1795253417,
+  "updatedAt": 1795253422,
   "revokedMachineIds": [
-    "MG-1234-5678-90AB"
+    "MG-9999-8888-7777"
   ],
   "revokedNonces": [
-    "b723bdacd4cb"
+    "403555188c1e"
   ],
   "revokedTokens": [
-    "MG-ACT-eyJtaWQiOiJNRy0xMjM0LTU2NzgtOTBBQiIsImZyaWVuZCI6IkVsaWFuIFRlc3QiLCJpc3N1ZWRBdCI6MTc5NTI1MzQxNiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImI3MjNiZGFjZDRjYiJ9.lYl_5kxt4oEpp2FDWIGHfmJbEFc7sWy0MUmpkqZUbhg"
+    "MG-ACT-eyJtaWQiOiJNRy05OTk5LTg4ODgtNzc3NyIsImZyaWVuZCI6IkFtaWdvIFRlc3QiLCJpc3N1ZWRBdCI6MTc5NTI1MzQyMiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjQwMzU1NTE4OGMxZSJ9.b1kcXaCNMcTRauHeqz27Nz-Jjoo-KGvF-2aMmT4diOs"
   ],
   "entries": [
     {
-      "id": "b723bdacd4cb",
-      "machineId": "MG-1234-5678-90AB",
-      "friend": "Elian Test",
-      "revokedAt": 1795253417,
-      "reason": "Prueba revocación"
+      "id": "403555188c1e",
+      "machineId": "MG-9999-8888-7777",
+      "friend": "Amigo Test",
+      "revokedAt": 1795253422,
+      "reason": "Prueba de test"
     }
   ]
 }
