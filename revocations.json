@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795297944,
+  "updatedAt": 1795297949,
   "revokedMachineIds": [
     "MG-6469-3DF2-6E3A",
     "MG-1DE7-6ED0-8128",
@@ -39,7 +39,16 @@
     "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o"
   ],
   "deletedFromListMachineIds": [
-    "MG-6469-3DF2-6E3A"
+    "MG-6469-3DF2-6E3A",
+    "MG-1DE7-6ED0-8128",
+    "MG-4702-6A17-3D95",
+    "MG-D162-6AA1-6148",
+    "MG-FD92-3667-35E1",
+    "MG-048E-534C-16CD",
+    "MG-69F7-A8EB-D9E8",
+    "MG-E33F-0D61-BC8A",
+    "MG-46A5-D505-3D00",
+    "MG-F767-4CF6-4E96"
   ],
   "entries": [
     {
