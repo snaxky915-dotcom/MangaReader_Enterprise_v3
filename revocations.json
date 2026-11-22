@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795306229,
+  "updatedAt": 1795370371,
   "revokedMachineIds": [
     "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
@@ -8,7 +8,9 @@
     "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A",
-    "MG-46A5-D505-3D00"
+    "MG-46A5-D505-3D00",
+    "MG-F767-4CF6-4E96",
+    "MG-7238-A15E-D9B1"
   ],
   "revokedNonces": [
     "030b5a795879",
@@ -23,7 +25,9 @@
     "3a6303a1a362",
     "558dc42c93c2",
     "31b7adcae040",
-    "ae0964563490"
+    "ae0964563490",
+    "d3899d8ddfa8",
+    "662546a1471d"
   ],
   "revokedTokens": [
     "MG-ACT-eyJtaWQiOiJNRy0xREU3LTZFRDAtODEyOCIsImZyaWVuZCI6ImVuZHkgbGEgY2h1bHVsYSIsImlzc3VlZEF0IjoxNzk0OTM4NzcwLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiMGQyMzVhNzUxMjRiIn0.1UDdAjmVZDtmeI_zB1qDE3eqkAfhPpvg_UyjqSDUAuU",
@@ -33,7 +37,11 @@
     "MG-ACT-eyJtaWQiOiJNRy0wNDhFLTUzNEMtMTZDRCIsImZyaWVuZCI6InBjIGRlIGxhIG9maWNpbmEiLCJpc3N1ZWRBdCI6MTc5NDQyNDAxNCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjFjOWEzZGYyYjNhMiJ9.ciTEzG6jUICHNgzqPN2PaB2vq0ehzNBFpwRkc7RzCzY",
     "MG-ACT-eyJtaWQiOiJNRy02OUY3LUE4RUItRDlFOCIsImZyaWVuZCI6Im1lciIsImlzc3VlZEF0IjoxNzk0MzU0MDgzLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjkzNDY0YWUzYWI0In0.lHsgx6w_QYBPUnJ9NKcjfan3qFxqG8PWO2E6Ui5w08E",
     "MG-ACT-eyJtaWQiOiJNRy1FMzNGLTBENjEtQkM4QSIsImZyaWVuZCI6Im1pIHB1Y2h1bmdpdGEiLCJpc3N1ZWRBdCI6MTc5NDI4Njc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjNhNjMwM2ExYTM2MiJ9.KCFnI_20c4WeagH5d_9H_8vXrM3YLQY6GxVznVGnqwM",
-    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o"
+    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o",
+    "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkFtaWdvIiwiaXNzdWVkQXQiOjE3OTQyNjE3MjAsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI2OTc5ZDM3NjcwYmYifQ.0IssSM28KDkf0AZd8x4e0_f-nQtBZ2t9FS-X_m2n_Ds",
+    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6ImpvZWwiLCJpc3N1ZWRBdCI6MTc5NDI1NTgzNiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjMxYjdhZGNhZTA0MCJ9.AJFQKr8_78fFhsJY6-0gGON-CycvnthgD2JrDaHHM3A",
+    "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkphZGVyc29uIiwiaXNzdWVkQXQiOjE3OTUyOTgzNDQsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiJkMzg5OWQ4ZGRmYTgifQ.4ibMW312pmU2eBKHarG7WZcpqGuSQLT7fjEBJjEQbw4",
+    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg"
   ],
   "deletedFromListMachineIds": [
     "MG-1DE7-6ED0-8128",
@@ -43,9 +51,25 @@
     "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A",
-    "MG-46A5-D505-3D00"
+    "MG-46A5-D505-3D00",
+    "MG-F767-4CF6-4E96",
+    "MG-7238-A15E-D9B1"
   ],
   "entries": [
+    {
+      "id": "31b7adcae040",
+      "machineId": "MG-7238-A15E-D9B1",
+      "friend": "joel",
+      "revokedAt": 1795318140,
+      "reason": "Revocado por Propietario"
+    },
+    {
+      "id": "6979d37670bf",
+      "machineId": "MG-F767-4CF6-4E96",
+      "friend": "Amigo",
+      "revokedAt": 1795318140,
+      "reason": "Revocado por Propietario"
+    },
     {
       "id": "558dc42c93c2",
       "machineId": "MG-46A5-D505-3D00",
@@ -102,5 +126,14 @@
       "revokedAt": 1795296240,
       "reason": "Revocado por Propietario"
     }
-  ]
+  ],
+  "_sig": {
+    "alg": "ed25519",
+    "v": 1,
+    "kid": "39582c6daca4a295",
+    "kind": "crl_sync",
+    "ts": 1795370371750,
+    "nonce": "df60959b2ac0ff93",
+    "sig": "Gu7EDZemwsnriNSXUJgIm8Rfgk91PSO2UiRCuNIeM9F1YGXc3Q0_WwCoL-ypbcO8Jlro0Vhwr1D2B1lFVgDUAw"
+  }
 }
