@@ -114,8 +114,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795376525262,
-    "nonce": "2d0e64482bde1324",
-    "sig": "CsOIcSzmGI_PkfwHOeLEbvbvtGdpD8zszUvC3jlxGMg3pOWAlnQafCuYFtBBYqFp8RDVouVvvmk48raZKzOOCw"
+    "ts": 1795376528280,
+    "nonce": "6a51d89b004a807d",
+    "sig": "RUO89vklp21go-o-5oaBNjAXOS9d_KdPAS2c8VRvEIT6Xc9g5Xo-2bQFtvIAWxsPwqCj1bwoy5jUzGHVCWYNDw"
   }
 }
