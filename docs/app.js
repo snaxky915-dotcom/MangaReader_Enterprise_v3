@@ -1,10 +1,12 @@
-// MangaReader+ Landing Page — Interactive Preview & Activation Modal
+// MangaReader+ Landing Page — Interactive Preview & Activation Modal with Legal Consent
 (() => {
+  const LEGAL_VERSION = '2026.1.0';
+
   const PREVIEW_STATES = {
     manga: {
-      eyebrow: 'LECTURA CONTINUA · CALIDAD HD · DESCARGA OFFLINE',
+      eyebrow: 'LECTURA CONTINUA · CALIDAD HD · GUARDADO OFFLINE',
       headline: 'Manga, Manhwa y Webtoons con lectura fluida y sin anuncios',
-      meta: 'Modo cascada vertical, mejora de imagen HD, catálogo en español actualizado y descargas para leer sin internet según tu plan.',
+      meta: 'Modo cascada vertical, lupa de nitidez HD, organización en tu biblioteca local y guardado sin internet según tu plan.',
       accent: 'rgba(245, 158, 11, 0.45)',
     },
     anime: {
@@ -14,20 +16,20 @@
       accent: 'rgba(56, 189, 248, 0.45)',
     },
     cine: {
-      eyebrow: 'CINE Y SERIES · AUDIO LATINO, CASTELLANO E INGLÉS',
-      headline: 'Estrenos y series completas con múltiples servidores listos para ti',
-      meta: 'Cambia de servidor en 1 clic, disfruta Modo Sala o Teatro y guarda tus películas y series favoritas en Mi Biblioteca.',
+      eyebrow: 'CINE Y SERIES · MULTI-AUDIO Y SUBTÍTULOS',
+      headline: 'Organiza y disfruta películas y series en un reproductor limpio',
+      meta: 'Cambia de ruta de reproducción en 1 clic, disfruta Modo Sala o Teatro y guarda tus favoritos en Mi Biblioteca.',
       accent: 'rgba(244, 63, 94, 0.45)',
     },
     kdramas: {
-      eyebrow: 'K-DRAMAS HD · SUBTÍTULOS EN ESPAÑOL · TEMPORADAS COMPLETAS',
+      eyebrow: 'K-DRAMAS HD · SUBTÍTULOS EN ESPAÑOL · TEMPORADAS ORDENADAS',
       headline: 'Tus dramas asiáticos favoritos sin redirecciones ni ventanas molestas',
-      meta: 'Seguimiento automático por episodio para continuar exactamente donde te quedaste, con servidores rápidos para tus maratones.',
+      meta: 'Seguimiento automático por episodio para continuar exactamente donde te quedaste, con cambio rápido de conexión.',
       accent: 'rgba(168, 85, 247, 0.45)',
     },
     music: {
-      eyebrow: 'MUSIC+ Y SPOTIFY SIN ANUNCIOS · VISUALIZADOR ANIMADO',
-      headline: 'Música sin cortes con letras sincronizadas y reproductor flotante',
+      eyebrow: 'MUSIC+ INTEGRADO · VISUALIZADOR ANIMADO · LETRAS',
+      headline: 'Tu reproductor web de música integrado con visualizador y reproductor flotante',
       meta: 'Incluido en VIP Plus ($10), VIP Permanente ($50) y en tu Prueba Gratis de 7 días para escuchar mientras lees o trabajas.',
       accent: 'rgba(16, 185, 129, 0.45)',
     },
@@ -40,7 +42,7 @@
     comunidad: {
       eyebrow: 'COMUNIDAD · WATCH TOGETHER · NIVELES Y MARCOS XP',
       headline: 'Salas sincronizadas, chat en vivo y videollamadas con tus amigos',
-      meta: 'Ve anime o películas al mismo tiempo con tus amigos, sube de nivel con multiplicadores XP y desbloquea marcos exclusivos.',
+      meta: 'Ve contenido al mismo tiempo con tus amigos, sube de nivel con multiplicadores XP y desbloquea marcos exclusivos.',
       accent: 'rgba(245, 158, 11, 0.45)',
     },
   };
@@ -95,19 +97,27 @@
     });
   }
 
-  // Activation Modal
+  // Activation Modal + Mandatory Legal Consent Checkbox
   const modal = document.getElementById('activationModal');
   const modalCloseBtn = document.getElementById('modalCloseBtn');
   const selectedPlanName = document.getElementById('selectedPlanName');
   const machineIdInput = document.getElementById('machineIdInput');
+  const legalAcceptCheck = document.getElementById('legalAcceptCheck');
   const copyRequestBtn = document.getElementById('copyRequestBtn');
   const copyFeedback = document.getElementById('copyFeedback');
   let activePlanLabel = 'Prueba Gratis 7 Días ($0)';
+
+  function syncCopyButtonState() {
+    if (!copyRequestBtn || !legalAcceptCheck) return;
+    copyRequestBtn.disabled = !legalAcceptCheck.checked;
+  }
 
   function openModal(planLabel) {
     activePlanLabel = planLabel || 'Prueba Gratis 7 Días ($0)';
     if (selectedPlanName) selectedPlanName.textContent = activePlanLabel;
     if (copyFeedback) copyFeedback.textContent = '';
+    if (legalAcceptCheck) legalAcceptCheck.checked = false;
+    syncCopyButtonState();
     if (modal) {
       modal.removeAttribute('hidden');
       document.body.style.overflow = 'hidden';
@@ -128,6 +138,10 @@
     });
   });
 
+  if (legalAcceptCheck) {
+    legalAcceptCheck.addEventListener('change', syncCopyButtonState);
+  }
+
   if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModal);
   if (modal) {
     modal.addEventListener('click', (e) => {
@@ -142,8 +156,14 @@
 
   if (copyRequestBtn) {
     copyRequestBtn.addEventListener('click', async () => {
+      if (legalAcceptCheck && !legalAcceptCheck.checked) {
+        if (copyFeedback) {
+          copyFeedback.textContent = 'Debes aceptar los Términos y el Aviso Legal antes de continuar.';
+        }
+        return;
+      }
       const mid = (machineIdInput?.value || '').trim().toUpperCase() || 'MG-XXXX-YYYY-ZZZZ';
-      const text = `Hola! Quiero activar mi plan en MangaReader+.\n• Plan elegido: ${activePlanLabel}\n• Código de equipo: ${mid}`;
+      const text = `Hola! Quiero activar mi licencia de MangaReader+.\n• Plan elegido: ${activePlanLabel}\n• Código de equipo: ${mid}\n• Contrato legal aceptado: v${LEGAL_VERSION}`;
       try {
         await navigator.clipboard.writeText(text);
         if (copyFeedback) copyFeedback.textContent = '✓ Mensaje copiado. Envíalo por Discord o WhatsApp para recibir tu clave de activación.';
