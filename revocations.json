@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795376525,
+  "updatedAt": 1795377927,
   "revokedMachineIds": [
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
@@ -7,7 +7,6 @@
     "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A",
-    "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96"
   ],
   "revokedNonces": [
@@ -37,7 +36,6 @@
     "MG-ACT-eyJtaWQiOiJNRy0wNDhFLTUzNEMtMTZDRCIsImZyaWVuZCI6InBjIGRlIGxhIG9maWNpbmEiLCJpc3N1ZWRBdCI6MTc5NDQyNDAxNCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjFjOWEzZGYyYjNhMiJ9.ciTEzG6jUICHNgzqPN2PaB2vq0ehzNBFpwRkc7RzCzY",
     "MG-ACT-eyJtaWQiOiJNRy02OUY3LUE4RUItRDlFOCIsImZyaWVuZCI6Im1lciIsImlzc3VlZEF0IjoxNzk0MzU0MDgzLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjkzNDY0YWUzYWI0In0.lHsgx6w_QYBPUnJ9NKcjfan3qFxqG8PWO2E6Ui5w08E",
     "MG-ACT-eyJtaWQiOiJNRy1FMzNGLTBENjEtQkM4QSIsImZyaWVuZCI6Im1pIHB1Y2h1bmdpdGEiLCJpc3N1ZWRBdCI6MTc5NDI4Njc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjNhNjMwM2ExYTM2MiJ9.KCFnI_20c4WeagH5d_9H_8vXrM3YLQY6GxVznVGnqwM",
-    "MG-ACT-eyJtaWQiOiJNRy00NkE1LUQ1MDUtM0QwMCIsImZyaWVuZCI6ImVsaWFuIiwiaXNzdWVkQXQiOjE3OTQyNjUxNjksImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI1NThkYzQyYzkzYzIifQ.cNzmGDSv54l4ofYLC6C8NrbAqXaRk0wgFYhUhiOAw5o",
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkFtaWdvIiwiaXNzdWVkQXQiOjE3OTQyNjE3MjAsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI2OTc5ZDM3NjcwYmYifQ.0IssSM28KDkf0AZd8x4e0_f-nQtBZ2t9FS-X_m2n_Ds",
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkphZGVyc29uIiwiaXNzdWVkQXQiOjE3OTUyOTgzNDQsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiJkMzg5OWQ4ZGRmYTgifQ.4ibMW312pmU2eBKHarG7WZcpqGuSQLT7fjEBJjEQbw4"
   ],
@@ -48,7 +46,6 @@
     "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A",
-    "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96"
   ],
   "entries": [
@@ -57,13 +54,6 @@
       "machineId": "MG-F767-4CF6-4E96",
       "friend": "Amigo",
       "revokedAt": 1795318140,
-      "reason": "Revocado por Propietario"
-    },
-    {
-      "id": "558dc42c93c2",
-      "machineId": "MG-46A5-D505-3D00",
-      "friend": "elian",
-      "revokedAt": 1795297437,
       "reason": "Revocado por Propietario"
     },
     {
@@ -114,8 +104,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795376528280,
-    "nonce": "6a51d89b004a807d",
-    "sig": "RUO89vklp21go-o-5oaBNjAXOS9d_KdPAS2c8VRvEIT6Xc9g5Xo-2bQFtvIAWxsPwqCj1bwoy5jUzGHVCWYNDw"
+    "ts": 1795377927152,
+    "nonce": "e72c9114d9bedc8e",
+    "sig": "1jTGloZd3dHw-NlR7hX6qfbs-uhi5xHaNSleywJaFaqqnEUxYwyvTbLk9tREdD2o1_Paw6-q23R3y7bxaD9_CA"
   }
 }
