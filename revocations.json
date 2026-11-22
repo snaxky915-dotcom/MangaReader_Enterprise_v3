@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795370371,
+  "updatedAt": 1795375960,
   "revokedMachineIds": [
     "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
@@ -10,7 +10,8 @@
     "MG-E33F-0D61-BC8A",
     "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96",
-    "MG-7238-A15E-D9B1"
+    "MG-7238-A15E-D9B1",
+    "MG-6469-3DF2-6E3A"
   ],
   "revokedNonces": [
     "030b5a795879",
@@ -27,7 +28,8 @@
     "31b7adcae040",
     "ae0964563490",
     "d3899d8ddfa8",
-    "662546a1471d"
+    "662546a1471d",
+    "7f3b20fab278"
   ],
   "revokedTokens": [
     "MG-ACT-eyJtaWQiOiJNRy0xREU3LTZFRDAtODEyOCIsImZyaWVuZCI6ImVuZHkgbGEgY2h1bHVsYSIsImlzc3VlZEF0IjoxNzk0OTM4NzcwLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiMGQyMzVhNzUxMjRiIn0.1UDdAjmVZDtmeI_zB1qDE3eqkAfhPpvg_UyjqSDUAuU",
@@ -41,7 +43,8 @@
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkFtaWdvIiwiaXNzdWVkQXQiOjE3OTQyNjE3MjAsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI2OTc5ZDM3NjcwYmYifQ.0IssSM28KDkf0AZd8x4e0_f-nQtBZ2t9FS-X_m2n_Ds",
     "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6ImpvZWwiLCJpc3N1ZWRBdCI6MTc5NDI1NTgzNiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjMxYjdhZGNhZTA0MCJ9.AJFQKr8_78fFhsJY6-0gGON-CycvnthgD2JrDaHHM3A",
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkphZGVyc29uIiwiaXNzdWVkQXQiOjE3OTUyOTgzNDQsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiJkMzg5OWQ4ZGRmYTgifQ.4ibMW312pmU2eBKHarG7WZcpqGuSQLT7fjEBJjEQbw4",
-    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg"
+    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg",
+    "MG-ACT-eyJtaWQiOiJNRy02NDY5LTNERjItNkUzQSIsImZyaWVuZCI6ImFtaWdvIGRlIGVuZHkiLCJpc3N1ZWRBdCI6MTc5NTMwNjIyOSwiZXhwaXJlc0F0IjoxNzk1OTExMDI5LCJ0aWVyIjoiN0QiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiN2YzYjIwZmFiMjc4In0.2xG0JTJzUZ47fbYkcnXE4fJk2w4AcJXAAwMhRg04qFU"
   ],
   "deletedFromListMachineIds": [
     "MG-1DE7-6ED0-8128",
@@ -53,9 +56,17 @@
     "MG-E33F-0D61-BC8A",
     "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96",
-    "MG-7238-A15E-D9B1"
+    "MG-7238-A15E-D9B1",
+    "MG-6469-3DF2-6E3A"
   ],
   "entries": [
+    {
+      "id": "7f3b20fab278",
+      "machineId": "MG-6469-3DF2-6E3A",
+      "friend": "amigo de endy",
+      "revokedAt": 1795375960,
+      "reason": "Licencia eliminada y bloqueada por Propietario"
+    },
     {
       "id": "31b7adcae040",
       "machineId": "MG-7238-A15E-D9B1",
@@ -132,8 +143,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795370390036,
-    "nonce": "39253b4309a702c9",
-    "sig": "EPqij3l_YUk3LWX-fr6p-0QpBJUh2Ue6TEbfwTNFSFW0A4g-9rQrxItdiB5D3jqsiuuCMNn8ip6tVfVZa3yKBA"
+    "ts": 1795375960640,
+    "nonce": "f5465198614d34f4",
+    "sig": "Glpye_LMJRQtXWVRgIMqrf2jn3tansJUTKChvvNtRhm0JuXztD3FaM_57JTW8chLLUXGemXg8vbiZ9c_RE6oCg"
   }
 }
