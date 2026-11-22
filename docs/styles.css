@@ -1,5 +1,4 @@
-/* MangaReader+ Enterprise — Obsidian 2.0 Landing Page Styles
-   Matched 1:1 to Figma Design System (NdfuzTGK8WbEFne8eQVfTj) */
+/* MangaReader+ — Landing Page Styles */
 
 :root {
   --bg-canvas: #060812;
@@ -877,7 +876,6 @@ a {
   border-radius: var(--radius-lg);
   border: 1px solid var(--border-subtle);
   background: var(--bg-surface);
-  margin-bottom: 36px;
 }
 
 .compare-table {
@@ -913,43 +911,6 @@ a {
 .col-amber { color: var(--accent-amber); }
 .col-violet { color: #c084fc; }
 .val-strong { color: #34d399; font-weight: 700; }
-
-/* Governance Strip */
-.gov-card {
-  background: var(--bg-surface);
-  border: 1px solid rgba(56, 189, 248, 0.35);
-  border-radius: var(--radius-lg);
-  padding: 28px 32px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  flex-wrap: wrap;
-}
-
-.gov-copy {
-  flex: 1 1 520px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.gov-copy h3 {
-  font-size: 20px;
-}
-
-.gov-copy p {
-  margin: 0;
-  font-size: 14px;
-  color: var(--text-secondary);
-}
-
-.gov-pills {
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
 
 /* FAQ */
 .faq-list {
@@ -1026,19 +987,21 @@ a {
   color: #cbd5e1;
 }
 
-.linux-note {
-  margin-top: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  font-size: 12.5px;
+.linux-link-row {
+  margin: 4px 0 0;
+  font-size: 13px;
   color: var(--text-secondary);
 }
 
-.linux-note code {
-  word-break: break-all;
-  padding: 6px 12px;
+.linux-link-row a {
+  color: var(--accent-cyan);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.linux-link-row a:hover {
+  color: var(--text-primary);
 }
 
 /* Footer */

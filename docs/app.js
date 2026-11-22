@@ -1,46 +1,46 @@
-// MangaReader+ Enterprise Landing Page — Interactive Preview & Activation Modal
+// MangaReader+ Landing Page — Interactive Preview & Activation Modal
 (() => {
   const PREVIEW_STATES = {
     manga: {
-      eyebrow: 'LECTOR WEBTOON & CASCADA · UPSCALER 4K · DESCARGA PDF',
-      headline: 'Manga, Manhwa y Webtoons sin compresión y con Glosario Inteligente',
-      meta: 'Fuentes como MangaDex, Webtoons y Toomics integradas. Modo lectura continua, caché inteligente y descargas offline según tu plan.',
+      eyebrow: 'LECTURA CONTINUA · CALIDAD HD · DESCARGA OFFLINE',
+      headline: 'Manga, Manhwa y Webtoons con lectura fluida y sin anuncios',
+      meta: 'Modo cascada vertical, mejora de imagen HD, catálogo en español actualizado y descargas para leer sin internet según tu plan.',
       accent: 'rgba(245, 158, 11, 0.45)',
     },
     anime: {
-      eyebrow: 'ESCUDO MG NATIVO ACTIVO · 0 POPUPS · 1080p / 4K HDR',
-      headline: 'Streaming Fluido, Failover Inteligente y Watch Together en Tiempo Real',
-      meta: 'Salta intros y endings con AniSkip en 1 clic, activa Modo Sala/Teatro y amplifica el audio hasta 400% con perfiles EQ.',
+      eyebrow: 'SIN ANUNCIOS · SIN POPUPS · FULL HD Y 4K',
+      headline: 'Mira tus animes favoritos sin cortes y con salas para ver con amigos',
+      meta: 'Salta intros y endings en 1 clic, activa Modo Sala o Teatro y sube el volumen hasta 400% con perfiles de ecualizador.',
       accent: 'rgba(56, 189, 248, 0.45)',
     },
     cine: {
-      eyebrow: 'CINE & SERIES 4K · MULTI-AUDIO LATINO / SUB ES',
-      headline: 'Estrenos y Series Completas con Servidores Escalonados hasta 99.9%',
-      meta: 'Cambia de servidor al vuelo con latencia en vivo, activa el Modo Cine/Sala y guarda tus favoritos en Mi Biblioteca.',
+      eyebrow: 'CINE Y SERIES · AUDIO LATINO, CASTELLANO E INGLÉS',
+      headline: 'Estrenos y series completas con múltiples servidores listos para ti',
+      meta: 'Cambia de servidor en 1 clic, disfruta Modo Sala o Teatro y guarda tus películas y series favoritas en Mi Biblioteca.',
       accent: 'rgba(244, 63, 94, 0.45)',
     },
     kdramas: {
-      eyebrow: 'K-DRAMAS HD · SUBTÍTULOS SINCRONIZADOS · TEMPORADAS COMPLETAS',
-      headline: 'Tu Catálogo Asiático Favorito sin Redirecciones ni Ventanas Emergentes',
-      meta: 'Seguimiento automático por episodio, historial unificado en la nube local y servidores dedicados para maratones nocturnas.',
+      eyebrow: 'K-DRAMAS HD · SUBTÍTULOS EN ESPAÑOL · TEMPORADAS COMPLETAS',
+      headline: 'Tus dramas asiáticos favoritos sin redirecciones ni ventanas molestas',
+      meta: 'Seguimiento automático por episodio para continuar exactamente donde te quedaste, con servidores rápidos para tus maratones.',
       accent: 'rgba(168, 85, 247, 0.45)',
     },
     music: {
-      eyebrow: 'MUSIC+ / SPOTIFY AD-FREE · VISUALIZADOR CIRCULAR 360°',
-      headline: 'Música Sin Anuncios con Letras Sincronizadas e Isla Flotante',
-      meta: 'Disponible desde VIP Plus ($10), VIP Permanente ($50) y en tu Prueba Gratis de 7 días. Incluye control multimedia global.',
+      eyebrow: 'MUSIC+ Y SPOTIFY SIN ANUNCIOS · VISUALIZADOR ANIMADO',
+      headline: 'Música sin cortes con letras sincronizadas y reproductor flotante',
+      meta: 'Incluido en VIP Plus ($10), VIP Permanente ($50) y en tu Prueba Gratis de 7 días para escuchar mientras lees o trabajas.',
       accent: 'rgba(16, 185, 129, 0.45)',
     },
-    nitro: {
-      eyebrow: 'PERSONALIZACIÓN ESTILO DISCORD NITRO · WALLPAPERS 4K',
-      headline: 'Temas de 2 Colores Combinados, Transparencias y Perfiles con GIFs HD',
-      meta: 'Personaliza menús, degradados, marcos Neón/Oro y fondos animados 4K. Comparte tus combinaciones con código de 1 clic.',
+    personalizacion: {
+      eyebrow: 'PERSONALIZACIÓN TOTAL · TEMAS 2-COLORES · FONDOS 4K',
+      headline: 'Haz que la app y tu perfil se vean exactamente a tu estilo',
+      meta: 'Combina degradados de 2 colores para toda la app, usa avatares y banners animados, marcos exclusivos y fondos en movimiento 4K.',
       accent: 'rgba(168, 85, 247, 0.5)',
     },
     comunidad: {
-      eyebrow: 'COMUNIDAD ESTILO DISCORD · WATCH TOGETHER · RANGOS XP',
-      headline: 'Salas Sincronizadas, Videollamadas y Roles de Moderación Granulares',
-      meta: 'Sube de nivel con multiplicadores 1.25x a 2.0x XP, desbloquea marcos exclusivos y disfruta salas privadas con tus amigos.',
+      eyebrow: 'COMUNIDAD · WATCH TOGETHER · NIVELES Y MARCOS XP',
+      headline: 'Salas sincronizadas, chat en vivo y videollamadas con tus amigos',
+      meta: 'Ve anime o películas al mismo tiempo con tus amigos, sube de nivel con multiplicadores XP y desbloquea marcos exclusivos.',
       accent: 'rgba(245, 158, 11, 0.45)',
     },
   };
@@ -102,10 +102,10 @@
   const machineIdInput = document.getElementById('machineIdInput');
   const copyRequestBtn = document.getElementById('copyRequestBtn');
   const copyFeedback = document.getElementById('copyFeedback');
-  let activePlanLabel = '7 Días Free Full ($0)';
+  let activePlanLabel = 'Prueba Gratis 7 Días ($0)';
 
   function openModal(planLabel) {
-    activePlanLabel = planLabel || '7 Días Free Full ($0)';
+    activePlanLabel = planLabel || 'Prueba Gratis 7 Días ($0)';
     if (selectedPlanName) selectedPlanName.textContent = activePlanLabel;
     if (copyFeedback) copyFeedback.textContent = '';
     if (modal) {
@@ -143,10 +143,10 @@
   if (copyRequestBtn) {
     copyRequestBtn.addEventListener('click', async () => {
       const mid = (machineIdInput?.value || '').trim().toUpperCase() || 'MG-XXXX-YYYY-ZZZZ';
-      const text = `Hola! Quiero activar mi licencia de MangaReader+ Enterprise.\n• Plan elegido: ${activePlanLabel}\n• Machine ID: ${mid}`;
+      const text = `Hola! Quiero activar mi plan en MangaReader+.\n• Plan elegido: ${activePlanLabel}\n• Código de equipo: ${mid}`;
       try {
         await navigator.clipboard.writeText(text);
-        if (copyFeedback) copyFeedback.textContent = '✓ Mensaje copiado al portapapeles. Envíalo al Propietario/Admin para recibir tu token MG-ACT.';
+        if (copyFeedback) copyFeedback.textContent = '✓ Mensaje copiado. Envíalo por Discord o WhatsApp para recibir tu clave de activación.';
       } catch {
         if (copyFeedback) copyFeedback.textContent = `Copia este mensaje: ${text}`;
       }
