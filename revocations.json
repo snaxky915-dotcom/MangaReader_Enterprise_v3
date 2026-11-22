@@ -1,7 +1,6 @@
 {
-  "updatedAt": 1795376490,
+  "updatedAt": 1795376525,
   "revokedMachineIds": [
-    "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
     "MG-FD92-3667-35E1",
@@ -32,7 +31,6 @@
     "0c9cb2be8bd5"
   ],
   "revokedTokens": [
-    "MG-ACT-eyJtaWQiOiJNRy0xREU3LTZFRDAtODEyOCIsImZyaWVuZCI6ImVuZHkgbGEgY2h1bHVsYSIsImlzc3VlZEF0IjoxNzk0OTM4NzcwLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiMGQyMzVhNzUxMjRiIn0.1UDdAjmVZDtmeI_zB1qDE3eqkAfhPpvg_UyjqSDUAuU",
     "MG-ACT-eyJtaWQiOiJNRy00NzAyLTZBMTctM0Q5NSIsImZyaWVuZCI6Im1hcmdvdC1rdW4iLCJpc3N1ZWRBdCI6MTc5NDYyMzg2NSwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImU5OGVhZjQ4YzVlYSJ9.9cPu6dM0jzMT7uXCRJPud5CsGr61Fek6V9sPI4kPbxU",
     "MG-ACT-eyJtaWQiOiJNRy1EMTYyLTZBQTEtNjE0OCIsImZyaWVuZCI6IkVsIGxldGUiLCJpc3N1ZWRBdCI6MTc5NDYxMjk2MiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY3ODM1ZWVkM2Q3MCJ9.4BF0qa3ocTIalqBPLnfZVHsf4qAQvzdZWuC8tnWZSS0",
     "MG-ACT-eyJtaWQiOiJNRy1GRDkyLTM2NjctMzVFMSIsImZyaWVuZCI6Imp1ZGl0aCBvZmZpY2luYSIsImlzc3VlZEF0IjoxNzk0NDI2Mzk4LCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjBmMDEzZWRhNTI1In0.mZcNohvYrquAS7rgI5CXZzS-YiF18yT_Cjqn4gMGNGE",
@@ -44,7 +42,6 @@
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkphZGVyc29uIiwiaXNzdWVkQXQiOjE3OTUyOTgzNDQsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiJkMzg5OWQ4ZGRmYTgifQ.4ibMW312pmU2eBKHarG7WZcpqGuSQLT7fjEBJjEQbw4"
   ],
   "deletedFromListMachineIds": [
-    "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
     "MG-FD92-3667-35E1",
@@ -110,13 +107,6 @@
       "friend": "margot-kun",
       "revokedAt": 1795296244,
       "reason": "Revocado por Propietario"
-    },
-    {
-      "id": "0d235a75124b",
-      "machineId": "MG-1DE7-6ED0-8128",
-      "friend": "endy la chulula",
-      "revokedAt": 1795296240,
-      "reason": "Revocado por Propietario"
     }
   ],
   "_sig": {
@@ -124,8 +114,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795376493479,
-    "nonce": "3e4a6b2141c5222f",
-    "sig": "MJF-UaIyNNF1GvXIESSV4mhGfVM3ka-4nPb8GnYaXDSzmfdXKLmDcMUf8eyF9cTumjKzxNEGZ9OiohL9qJWuAw"
+    "ts": 1795376525262,
+    "nonce": "2d0e64482bde1324",
+    "sig": "CsOIcSzmGI_PkfwHOeLEbvbvtGdpD8zszUvC3jlxGMg3pOWAlnQafCuYFtBBYqFp8RDVouVvvmk48raZKzOOCw"
   }
 }
