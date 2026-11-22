@@ -122,8 +122,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795376010679,
-    "nonce": "833d33a784fd306e",
-    "sig": "3hwPUwj3RmX5MFMj2-cgA6MWxii-SpT6mV5Kvp7Ac1lxZCymqNnfs0NlriXQ5kRBZqWASWSurs0sbt-QFT9xAA"
+    "ts": 1795376013851,
+    "nonce": "26796908af1a81e7",
+    "sig": "EdhN7-im84Hyk08ScaFRqZEdaTxrw1tpFfopgpTF53iKpr_wa4xBSJf7BEJhYhylm-MVCtjUiPpe_-6QWqXDDg"
   }
 }
