@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795375960,
+  "updatedAt": 1795375979,
   "revokedMachineIds": [
     "MG-1DE7-6ED0-8128",
     "MG-4702-6A17-3D95",
@@ -10,8 +10,7 @@
     "MG-E33F-0D61-BC8A",
     "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96",
-    "MG-7238-A15E-D9B1",
-    "MG-6469-3DF2-6E3A"
+    "MG-7238-A15E-D9B1"
   ],
   "revokedNonces": [
     "030b5a795879",
@@ -43,8 +42,7 @@
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkFtaWdvIiwiaXNzdWVkQXQiOjE3OTQyNjE3MjAsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiI2OTc5ZDM3NjcwYmYifQ.0IssSM28KDkf0AZd8x4e0_f-nQtBZ2t9FS-X_m2n_Ds",
     "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6ImpvZWwiLCJpc3N1ZWRBdCI6MTc5NDI1NTgzNiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjMxYjdhZGNhZTA0MCJ9.AJFQKr8_78fFhsJY6-0gGON-CycvnthgD2JrDaHHM3A",
     "MG-ACT-eyJtaWQiOiJNRy1GNzY3LTRDRjYtNEU5NiIsImZyaWVuZCI6IkphZGVyc29uIiwiaXNzdWVkQXQiOjE3OTUyOTgzNDQsImV4cGlyZXNBdCI6bnVsbCwidGllciI6IlZJUF9MSUZFVElNRSIsImlzc3VlciI6ImVscGFwdWFkbWluIiwibm9uY2UiOiJkMzg5OWQ4ZGRmYTgifQ.4ibMW312pmU2eBKHarG7WZcpqGuSQLT7fjEBJjEQbw4",
-    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg",
-    "MG-ACT-eyJtaWQiOiJNRy02NDY5LTNERjItNkUzQSIsImZyaWVuZCI6ImFtaWdvIGRlIGVuZHkiLCJpc3N1ZWRBdCI6MTc5NTMwNjIyOSwiZXhwaXJlc0F0IjoxNzk1OTExMDI5LCJ0aWVyIjoiN0QiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiN2YzYjIwZmFiMjc4In0.2xG0JTJzUZ47fbYkcnXE4fJk2w4AcJXAAwMhRg04qFU"
+    "MG-ACT-eyJtaWQiOiJNRy03MjM4LUExNUUtRDlCMSIsImZyaWVuZCI6Im1hY2FmaWEyMCAoam9lbCkiLCJpc3N1ZWRBdCI6MTc5NTI5NzU4NCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY2MjU0NmExNDcxZCJ9.IQvU2PaeeMr5qAy4am5lQ1CNw2peXKedABZPKxupWfg"
   ],
   "deletedFromListMachineIds": [
     "MG-1DE7-6ED0-8128",
@@ -56,17 +54,9 @@
     "MG-E33F-0D61-BC8A",
     "MG-46A5-D505-3D00",
     "MG-F767-4CF6-4E96",
-    "MG-7238-A15E-D9B1",
-    "MG-6469-3DF2-6E3A"
+    "MG-7238-A15E-D9B1"
   ],
   "entries": [
-    {
-      "id": "7f3b20fab278",
-      "machineId": "MG-6469-3DF2-6E3A",
-      "friend": "amigo de endy",
-      "revokedAt": 1795375960,
-      "reason": "Licencia eliminada y bloqueada por Propietario"
-    },
     {
       "id": "31b7adcae040",
       "machineId": "MG-7238-A15E-D9B1",
@@ -143,8 +133,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795375965580,
-    "nonce": "b12c5e2476a8a204",
-    "sig": "8MUS3K5u4oHrSzZYiiPOM7cDgO_FtUm3g3JFxOxV43pgbbBXOwjr9pdytD9DOzOu38SbM9KQLxBFRp23yympDw"
+    "ts": 1795375979555,
+    "nonce": "e31c8f38d08a1519",
+    "sig": "sZXmtzFDPCTXY02L6cCeqaGXi76NkOuT2VqzWxAoZl9Wh4qiISvvtXzpQmrHtv5v59dXf_1Anxb-UAnPUb_qBQ"
   }
 }
