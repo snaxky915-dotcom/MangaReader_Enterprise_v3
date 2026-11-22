@@ -1,70 +1,39 @@
-# ⚡ MangaReader+ Enterprise
+# ⚡ MangaReader+
 
-**MangaReader+ Enterprise** es una plataforma de escritorio todo-en-uno para **Windows y Linux** diseñada para leer manga, manhwa y webtoons en español, y reproducir anime, películas, series de televisión y K-Dramas en alta definición sin publicidad ni interrupciones.
+**MangaReader+** es una aplicación de escritorio para **Windows y Linux** diseñada como centro multimedia personal todo-en-uno: lectura organizada, reproductor con mejoras de audio, biblioteca local, personalización visual avanzada y salas sociales sincronizadas.
 
----
-
-## 🌟 ¿Para qué sirve MangaReader+ Enterprise?
-
-Reúne en una sola aplicación de alto rendimiento todo el entretenimiento multimedia con herramientas pensadas para disfrutar solo o con amigos:
-
-### 📖 1. Lector de Manga, Manhwa y Webtoon en Español
-* **Catálogo Multi-Fuente Unificado:** Conecta simultáneamente con múltiples servidores en español (*MangaDex ES*, *InManga*, *LeerCapitulo*, *ManhwaWeb*, *Webtoons*, *NovelCool* y *MangaTigre*), cambiando automáticamente de espejo si una fuente falla.
-* **Lupa Óptica HD a 60–144 FPS y Zoom 250%:** Acerca cualquier viñeta con doble clic o activa la **Lupa Óptica (`Tecla Z`)** acelerada por tarjeta gráfica para leer globos de diálogo con letra pequeña con total nitidez.
-* **Modo Webtoon y Paginado:** Alterna entre lectura en cascada continua sin bordes para manhwas o vista por páginas, con pre-carga inteligente y exportación de capítulos o tomos completos a **PDF HD**.
-
-### 📺 2. Anime en 1080p HD (Sub Español y Audio Latino)
-* **Navegador por Sagas y Franquicias:** Explora temporadas completas y divisiones oficiales por sagas y arcos (incluyendo todas las sagas de *One Piece* y series largas).
-* **Experiencia Cinema:** Incluye **Modo Teatro**, función de **Apagar Luces**, salto automático de intro (`+85s`), historial con reanudación en el segundo exacto y descarga directa de episodios en **.MP4** o temporadas en **.RAR**.
-
-### 🎬 3. Sala de Cine, Series de TV y K-Dramas
-* **Servidores Multi-Audio Verificados:** Reproduce estrenos de cine, series y doramas coreanos en **Audio Español Latino, Castellano o Subtitulado**.
-* **Motor de Subtítulos Personalizable:** Ajusta en vivo el tamaño de letra, el color (*Amarillo Cine*, *Blanco Puro*, *Cian Neón*, *Verde Esmeralda*) y la sincronización de tiempo ($\pm 0.5\text{s}$).
-
-### 🔊 4. Amplificador de Audio Inteligente (Audio Boost 400%)
-* **Potenciador de Voces Integrado:** ¿Un episodio o película se escucha muy bajo aunque tengas el volumen al máximo? Activa el botón **Boost (`Tecla B`)** para amplificar el sonido a **150%, 200%, 300% o 400%** mediante un compresor dinámico que eleva las voces sin saturar ni distorsionar tus altavoces.
-
-### 🍿 5. Watch Together (Ver Juntos con Amigos en Tiempo Real)
-* **Salas Privadas con Código de 6 Letras:** Crea una sala compartida e invita a tus amigos para ver anime, películas o K-Dramas sincronizados al milisegundo.
-* **Chat Flotante y Reacciones en Vivo:** Conversa desde el mini-chat integrado en la esquina del reproductor y envía reacciones animadas que flotan en la pantalla de todos los miembros de la sala.
-
-### ⬇️ 6. Descargador Universal con Cola en Segundo Plano
-* **Videos y Música sin Marcas de Agua:** Pega cualquier enlace de **YouTube, X (Twitter), Instagram o TikTok** para descargarlo en **MP4 Full HD (1080p)** o extraer su audio en **MP3 (320 kbps)**, pudiendo encolar múltiples descargas mientras sigues usando la aplicación.
-
-### 🛡️ 7. Escudo MG + Privacidad Instantánea (Boss Key)
-* **Cero Publicidad y Cero Ventanas Emergentes:** El motor **Escudo MG** bloquea internamente más de 180 redes de anuncios, rastreadores y trampas de clic antes de que lleguen a tu pantalla.
-* **Boss Key (`Ctrl + Espacio`):** Oculta la ventana y silencia cualquier video o audio en 1 milisegundo con una sola combinación de teclas, y vuelve a restaurarla cuando quieras.
-
-### 🎮 8. Perfil Otaku Estilo Discord y Sincronización con AniList
-* **Niveles, XP y Logros:** Sube del nivel 1 al 99 completando misiones diarias de lectura y streaming, desbloquea insignias, marcos exclusivos y personaliza tu perfil con avatares y banners GIF animados en alta definición.
-* **Conexión con Discord y AniList:** Muestra automáticamente en tu estado de Discord qué capítulo o episodio estás viendo y sincroniza tu progreso con tu cuenta de **AniList**.
+🌐 **Sitio Oficial y Planes:** [Ver Landing Page](https://snaxky915-dotcom.github.io/MangaReader_Enterprise_v3/)  
+⚖️ **Centro Legal:** [Términos y EULA](./TERMS.md) · [Privacidad](./PRIVACY.md) · [Política DMCA](./DMCA.md) · [Aviso Legal](./LEGAL.md)
 
 ---
 
-## ⌨️ Atajos Rápidos del Sistema
+## ✨ Funciones Principales del Software
 
-| Atajo | Función |
-| :--- | :--- |
-| **`Ctrl + Espacio`** | **Boss Key:** Oculta y silencia la aplicación al instante |
-| **`Tecla B`** | **Audio Boost:** Sube el amplificador de volumen (`100%` $\rightarrow$ `150%` $\rightarrow$ `200%` $\rightarrow$ `300%` $\rightarrow$ `400%`) |
-| **`Tecla S`** | **Skip Intro:** Adelanta 85 segundos el opening en los reproductores de video |
-| **`Tecla Z`** | **Lupa Óptica HD:** Activa o desactiva el lente de aumento 2.6x en el lector de manga |
-| **`+` / `-` / `0`** | Acerca, aleja o restablece el zoom de las páginas del manga al `100%` |
-| **`Doble Clic`** | Hace zoom rápido (`180%`) sobre cualquier viñeta del manga |
-| **`Tecla W`** | Alterna entre modo **Webtoon (Cascada)** y **Paginado** en el lector |
-| **`Tecla F`** | Activa o sale del modo **Pantalla Completa** |
+- **📖 Lector de Manga y Webtoons:** Modo cascada vertical y paginado, lupa de lectura HD, zoom rápido, marcadores y organización en tu biblioteca local.
+- **🎬 Reproductor Multimedia Avanzado:** Modo Sala, Modo Teatro, controles de subtítulos personalizables, reanudación automática y navegación limpia sin ventanas emergentes intrusivas.
+- **🔊 Amplificador de Audio y Ecualizador (EQ):** Aumento de volumen inteligente (hasta 150%, 200% o 400% según tu plan) con perfiles dedicados (*Voces*, *Cine*, *Noche*).
+- **🎵 Music+ Integrado:** Reproductor web de música con visualizador animado reactivo al sonido, letras sincronizadas y mini reproductor flotante.
+- **🎨 Estudio de Personalización y Fondos 4K:** Temas de 2 colores combinados, perfiles personalizables, marcos y fondos animados 4K.
+- **💬 Comunidad y Watch Together:** Salas privadas sincronizadas para ver contenido con amigos, chat en vivo y sistema de niveles XP.
+- **🔒 Privacidad Instantánea (Boss Key):** Oculta y silencia la ventana al instante con `Ctrl + Espacio`.
 
 ---
 
-## 💻 Instalación para Usuarios
+## 💻 Instalación
 
-### 🪟 En Windows (Windows 10 / 11)
-1. Descarga el instalador **`MangaReader-Enterprise-Setup.exe`** desde la sección **Releases**.
-2. Ejecútalo, sigue el asistente de instalación y abre **MangaReader+ Enterprise** desde tu Escritorio.
-3. En la pantalla inicial, copia tu **Machine ID (`MG-XXXX-YYYY-ZZZZ`)** y envíaselo al Propietario para recibir tu token de activación.
+### 🪟 Windows (Windows 10 / 11 — 64 bits)
+1. Descarga el instalador oficial más reciente desde la sección [**Releases**](https://github.com/snaxky915-dotcom/MangaReader_Enterprise_v3/releases/latest).
+2. Revisa y acepta el **Acuerdo de Licencia (EULA)** durante la instalación y al abrir la aplicación por primera vez.
+3. Solicita tu **Prueba Gratis de 7 Días** o activa tu plan con el código único de tu equipo.
 
-### 🐧 En Linux (Ubuntu, Debian, Linux Mint, Fedora, Arch)
-* **Opción A — Instalador Automático en 1 Comando (Ubuntu / Debian / Mint):**
-  Descarga el paquete `.deb` o el instalador y ejecuta en tu terminal:
-  ```bash
-  chmod +x instalar-linux.sh && ./instalar-linux.sh
+### 🐧 Linux
+Consulta el instalador disponible en [**Releases**](https://github.com/snaxky915-dotcom/MangaReader_Enterprise_v3/releases/latest) o utiliza el script [`instalar-linux.sh`](./instalar-linux.sh).
+
+---
+
+## ⚖️ Aviso Legal y Derechos de Autor (DMCA)
+
+- **Software Cliente Local:** MangaReader+ es una herramienta de software de escritorio. **No alojamos, subimos, almacenamos ni distribuimos** archivos protegidos por derechos de autor de terceros en servidores propios.
+- **Responsabilidad del Usuario:** El usuario es el único responsable de las fuentes externas, enlaces o archivos locales que decida abrir y del cumplimiento de las leyes de derechos de autor vigentes en su país.
+- **Aceptación Obligatoria:** El uso de la aplicación requiere la lectura y aceptación explícita de los [Términos y Condiciones (EULA v2026.1.0)](./TERMS.md) y la [Política de Privacidad](./PRIVACY.md).
+- **Retiro de Contenido / DMCA:** Si eres titular de derechos de autor y deseas reportar un enlace, metadato o publicación de usuario, consulta nuestra [Política DMCA](./DMCA.md) y escribe a **`dmca@mangareader.plus`** (atención prioritaria en 24–72 h hábiles).
