@@ -143,8 +143,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795375960640,
-    "nonce": "f5465198614d34f4",
-    "sig": "Glpye_LMJRQtXWVRgIMqrf2jn3tansJUTKChvvNtRhm0JuXztD3FaM_57JTW8chLLUXGemXg8vbiZ9c_RE6oCg"
+    "ts": 1795375965580,
+    "nonce": "b12c5e2476a8a204",
+    "sig": "8MUS3K5u4oHrSzZYiiPOM7cDgO_FtUm3g3JFxOxV43pgbbBXOwjr9pdytD9DOzOu38SbM9KQLxBFRp23yympDw"
   }
 }
