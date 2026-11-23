@@ -74,8 +74,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795466562965,
-    "nonce": "57e984e2c4a3b422",
-    "sig": "QJDMvVpq9-qSeGfhorofvo7fxYFqILz7D4u2wIC3D8kLipxn1rGX32VIKzCo9qFpFeAQpQX8OrEzXccSbVRlCg"
+    "ts": 1795466566709,
+    "nonce": "cc84a20656e500b3",
+    "sig": "ybOprzFV4mtZxBoeixqzghA1C4pun2q6G4MFFAYorMzMsqQdpFBly0oGiV2yFpyhdRub_udRed0KiGjliWAbBg"
   }
 }
