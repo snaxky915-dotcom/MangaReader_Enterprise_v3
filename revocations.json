@@ -1,10 +1,9 @@
 {
-  "updatedAt": 1795389302,
+  "updatedAt": 1795440428,
   "revokedMachineIds": [
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
     "MG-FD92-3667-35E1",
-    "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A"
   ],
@@ -32,7 +31,6 @@
     "MG-ACT-eyJtaWQiOiJNRy00NzAyLTZBMTctM0Q5NSIsImZyaWVuZCI6Im1hcmdvdC1rdW4iLCJpc3N1ZWRBdCI6MTc5NDYyMzg2NSwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6ImU5OGVhZjQ4YzVlYSJ9.9cPu6dM0jzMT7uXCRJPud5CsGr61Fek6V9sPI4kPbxU",
     "MG-ACT-eyJtaWQiOiJNRy1EMTYyLTZBQTEtNjE0OCIsImZyaWVuZCI6IkVsIGxldGUiLCJpc3N1ZWRBdCI6MTc5NDYxMjk2MiwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjY3ODM1ZWVkM2Q3MCJ9.4BF0qa3ocTIalqBPLnfZVHsf4qAQvzdZWuC8tnWZSS0",
     "MG-ACT-eyJtaWQiOiJNRy1GRDkyLTM2NjctMzVFMSIsImZyaWVuZCI6Imp1ZGl0aCBvZmZpY2luYSIsImlzc3VlZEF0IjoxNzk0NDI2Mzk4LCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjBmMDEzZWRhNTI1In0.mZcNohvYrquAS7rgI5CXZzS-YiF18yT_Cjqn4gMGNGE",
-    "MG-ACT-eyJtaWQiOiJNRy0wNDhFLTUzNEMtMTZDRCIsImZyaWVuZCI6InBjIGRlIGxhIG9maWNpbmEiLCJpc3N1ZWRBdCI6MTc5NDQyNDAxNCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjFjOWEzZGYyYjNhMiJ9.ciTEzG6jUICHNgzqPN2PaB2vq0ehzNBFpwRkc7RzCzY",
     "MG-ACT-eyJtaWQiOiJNRy02OUY3LUE4RUItRDlFOCIsImZyaWVuZCI6Im1lciIsImlzc3VlZEF0IjoxNzk0MzU0MDgzLCJleHBpcmVzQXQiOm51bGwsInRpZXIiOiJWSVBfTElGRVRJTUUiLCJpc3N1ZXIiOiJlbHBhcHVhZG1pbiIsIm5vbmNlIjoiYjkzNDY0YWUzYWI0In0.lHsgx6w_QYBPUnJ9NKcjfan3qFxqG8PWO2E6Ui5w08E",
     "MG-ACT-eyJtaWQiOiJNRy1FMzNGLTBENjEtQkM4QSIsImZyaWVuZCI6Im1pIHB1Y2h1bmdpdGEiLCJpc3N1ZWRBdCI6MTc5NDI4Njc3OCwiZXhwaXJlc0F0IjpudWxsLCJ0aWVyIjoiVklQX0xJRkVUSU1FIiwiaXNzdWVyIjoiZWxwYXB1YWRtaW4iLCJub25jZSI6IjNhNjMwM2ExYTM2MiJ9.KCFnI_20c4WeagH5d_9H_8vXrM3YLQY6GxVznVGnqwM"
   ],
@@ -40,7 +38,6 @@
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
     "MG-FD92-3667-35E1",
-    "MG-048E-534C-16CD",
     "MG-69F7-A8EB-D9E8",
     "MG-E33F-0D61-BC8A"
   ],
@@ -56,13 +53,6 @@
       "id": "b93464ae3ab4",
       "machineId": "MG-69F7-A8EB-D9E8",
       "friend": "mer",
-      "revokedAt": 1795297437,
-      "reason": "Revocado por Propietario"
-    },
-    {
-      "id": "1c9a3df2b3a2",
-      "machineId": "MG-048E-534C-16CD",
-      "friend": "pc de la oficina",
       "revokedAt": 1795297437,
       "reason": "Revocado por Propietario"
     },
@@ -93,8 +83,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795389309800,
-    "nonce": "6f06fd835fe05dce",
-    "sig": "WsAv5yOcI54vjgJy1fCkaLJrexWOkdKWdYfhiO6PO29WKtrQbvRIoQVKAUJ3eNct9erKAmfwS1wPsFuaHIXUBw"
+    "ts": 1795440428776,
+    "nonce": "0d7cdc3b5d4a0afe",
+    "sig": "IXkbFwMGIh0CEj17b7NO8NZvctqIy2kF47TgMJbJF93YDTnWd3vREwzL4Ubbr9ehFONTXm9CzMRyxBg-1q9HDw"
   }
 }
