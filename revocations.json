@@ -1,5 +1,5 @@
 {
-  "updatedAt": 1795466562,
+  "updatedAt": 1795545552,
   "revokedMachineIds": [
     "MG-4702-6A17-3D95",
     "MG-D162-6AA1-6148",
@@ -74,8 +74,8 @@
     "v": 1,
     "kid": "39582c6daca4a295",
     "kind": "crl_sync",
-    "ts": 1795466566709,
-    "nonce": "cc84a20656e500b3",
-    "sig": "ybOprzFV4mtZxBoeixqzghA1C4pun2q6G4MFFAYorMzMsqQdpFBly0oGiV2yFpyhdRub_udRed0KiGjliWAbBg"
+    "ts": 1795616384902,
+    "nonce": "a2d5ba600358ba32",
+    "sig": "Frt6S5RIG5xugBO-GM_xye_45uZ9LTrDMTHMl7m9U6VlmV2oNDcCSqW9sA2exOK-R2lfF8Yv5AZg_qpTTJuuAA"
   }
 }
